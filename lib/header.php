@@ -1,12 +1,13 @@
-    <div class="header">
-        
-        <nav class="menu">
-            <a href="index.html"><img src="./img/logo.png" alt="logo"></a>
-            <a href="dweb.html">Desarrollo Web</a>
-            <a href="hosting.html">Hosting</a>
-            <a href="seo.html">SEO</a>
-            <a href="gsmedia.html">Gestión de Redes Sociales</a>
-            <a href="blog.html">Blog</a>
+    <div class="contenedor">
+        <nav>
+            <a href="index.html"><img src="./img/logo.png" alt="logo" class="logo"></a>
+            <ul>
+                <li><a href="dweb.html">Desarrollo Web</a></li>
+                <li><a href="hosting.html">Hosting</a></li>
+                <li><a href="seo.html">SEO</a></li>
+                <li><a href="gsmedia.html">Gestión de Redes Sociales</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><button class="empezamos">¿Empezamos?</button></li>
+            </ul>
         </nav>
-
     </div>

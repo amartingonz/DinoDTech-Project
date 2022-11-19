@@ -1,34 +1,88 @@
 :root{
     --color-fondo: #27282F;
 }
-header ,footer{
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
     background-color: var(--color-fondo);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* HEADER */
+
+header nav{
+    width: 80%;
+    margin: auto;
+    padding: .5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 130px;
+    cursor: pointer;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+header nav ul li a{
     text-decoration: none;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* BOTON ¿EMPEZAMOS? AÑADIR FUNCIONALIDAD CON JAVASCRIPT */
 
+.empezamos{
+    padding: 15%;
+    background-color: red;
+    
 }
-header nav a img{
-    width: 1.5%;
-    text-align: center;
-}
-img {
-    width: 80px;
-    float: left;
-}
-/*
 
-header nav {
-    text-align: center;
+header nav ul li::before{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: gold;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+header nav ul li:hover::before{
+    width: 100%;
+}
+/* FOOTER */
+
+footer nav{
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative; 
+}
+footer nav ul li a{
     text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-header nav a{
-    padding: 1.5%;
-
-}
-
-*/
-footer{
-    background-color: var(--color-fondo);
+.icono{
+    width: 20px;
+    cursor: pointer;
 }
