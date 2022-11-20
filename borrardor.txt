@@ -8,3 +8,19 @@
     </div>
     
 </body>
+
+
+.contenedor-paneles{
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    display: flex; /* PARA PONERLOS EN BLOQUES HORIZONTALMENTE */
+}
+
+
+
+.carta{
+    margin: 1em;
+    padding: 1em;
+    color: var(--color-letra);
+}

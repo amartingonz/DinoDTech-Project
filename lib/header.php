@@ -1,6 +1,6 @@
     <div class="contenedor">
         <nav>
-            <a href="index.html"><img src="./img/logo.png" alt="logo" class="logo"></a>
+            <a href="index.html"><img src="./img/iconos/logo.png" alt="logo" class="logo"></a>
             <ul>
                 <li><a href="dweb.html">Desarrollo Web</a></li>
                 <li><a href="hosting.html">Hosting</a></li>

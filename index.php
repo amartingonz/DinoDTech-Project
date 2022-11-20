@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/header-footer.css">
     <link rel="stylesheet" href="./css/home.css">
+    <script src="./javascript/home.js"></script>
     <title>DinoDTech</title>
 </head>
 <header>
@@ -14,49 +14,29 @@
     ?>
 </header>
 <body>
-Lorem Ipsum
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam velit quis sagittis luctus. Donec ligula lectus, laoreet nec velit vel, ultrices semper nisl. Nunc justo lorem, dapibus sit amet risus quis, euismod rhoncus ligula. Vivamus at justo id tortor accumsan congue. Ut volutpat, enim nec commodo blandit, massa dolor cursus lacus, ut dignissim est arcu nec lorem. Vestibulum facilisis, tellus quis condimentum ultrices, metus magna accumsan sapien, vel convallis justo dolor in dui. Quisque ultrices, velit et efficitur ullamcorper, tellus est finibus erat, condimentum laoreet nibh justo non nibh. Nullam venenatis leo tortor, vitae molestie lorem iaculis at. Donec vitae ligula vestibulum, rhoncus odio vitae, euismod mi. Etiam diam ligula, pellentesque ac augue a, vehicula fermentum risus. Morbi id lacus ac lacus egestas aliquam. Curabitur eu condimentum urna.
-
-Maecenas velit urna, vestibulum fringilla scelerisque et, vestibulum vel lacus. Donec arcu risus, semper eu purus in, volutpat pellentesque dui. Quisque sem risus, cursus imperdiet viverra vel, bibendum id nibh. Etiam pretium, diam congue egestas molestie, urna metus dictum magna, eget elementum augue lectus eget erat. Sed hendrerit lectus non nulla posuere, ultricies tempor ipsum vehicula. Praesent non feugiat turpis. In pretium, lectus sit amet venenatis sollicitudin, massa augue euismod felis, sit amet elementum sapien est eget ante. Sed tempus condimentum leo, eu cursus tortor dapibus ut. Morbi massa dui, convallis iaculis leo at, fringilla sodales diam.
-
-Nulla tristique lectus vel tincidunt condimentum. Phasellus posuere nulla a lorem ullamcorper, sed varius elit dapibus. Vestibulum laoreet ligula sed lacus lobortis pulvinar ac ac est. Praesent maximus hendrerit lorem, vitae laoreet neque semper eu. Vestibulum euismod magna sed nulla accumsan efficitur. Integer eleifend, purus nec scelerisque mattis, tellus leo pulvinar nibh, et interdum nulla orci eget lectus. Mauris hendrerit lectus sem. Proin condimentum condimentum augue, maximus finibus ex pretium eu. Proin a eros laoreet, commodo ex blandit, vestibulum felis. Mauris viverra lacus ex, eu eleifend magna hendrerit pellentesque. Nam vehicula lacus et sem volutpat, egestas condimentum ex luctus. Proin at tempor diam. Nunc pulvinar facilisis maximus. Aliquam nec urna arcu.
-
-Suspendisse elementum neque purus, at dictum dolor faucibus a. Aenean volutpat augue quis nisi malesuada gravida. Nullam feugiat aliquam leo non malesuada. Quisque cursus nunc nec eros volutpat, sed iaculis quam consequat. Nulla pulvinar lobortis efficitur. Curabitur eget porttitor mauris. Pellentesque varius metus id ante bibendum bibendum. In hac habitasse platea dictumst. Nunc varius nisl et metus sollicitudin, id aliquam metus ornare. Quisque ac auctor ligula, id lobortis ex. Maecenas vel sapien nulla. Quisque tempus mauris velit, sed pulvinar nisi tempor in. Vestibulum vestibulum, velit maximus tempor dapibus, tortor erat finibus massa, quis lacinia velit elit a ante. Proin quis viverra velit. Quisque a ante arcu.
-
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent scelerisque, quam eget dictum luctus, neque tellus ultricies mauris, at tempus felis tellus pharetra libero. Mauris eu nibh mattis, tristique leo consectetur, bibendum odio. Fusce efficitur nibh felis, ac ultrices mi ullamcorper a. Nunc et lorem at urna mollis auctor. Etiam non malesuada purus, sit amet rutrum arcu. Morbi neque elit, sollicitudin imperdiet imperdiet non, bibendum vitae justo. Etiam tincidunt urna sed laoreet maximus. Vivamus quis facilisis lorem, id lobortis ipsum. Maecenas ultrices justo eget enim aliquet aliquet. In scelerisque vitae velit non scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse sagittis ligula at ipsum feugiat, id malesuada lorem condimentum. In turpis orci, congue vel aliquam vel, dignissim quis quam. Maecenas sit amet est lorem. Sed sit amet sollicitudin nulla.
-
-Generated 5 paragraphs, 581 words, 3999 bytes of Lorem Ipsum
-Lorem Ipsum
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam velit quis sagittis luctus. Donec ligula lectus, laoreet nec velit vel, ultrices semper nisl. Nunc justo lorem, dapibus sit amet risus quis, euismod rhoncus ligula. Vivamus at justo id tortor accumsan congue. Ut volutpat, enim nec commodo blandit, massa dolor cursus lacus, ut dignissim est arcu nec lorem. Vestibulum facilisis, tellus quis condimentum ultrices, metus magna accumsan sapien, vel convallis justo dolor in dui. Quisque ultrices, velit et efficitur ullamcorper, tellus est finibus erat, condimentum laoreet nibh justo non nibh. Nullam venenatis leo tortor, vitae molestie lorem iaculis at. Donec vitae ligula vestibulum, rhoncus odio vitae, euismod mi. Etiam diam ligula, pellentesque ac augue a, vehicula fermentum risus. Morbi id lacus ac lacus egestas aliquam. Curabitur eu condimentum urna.
-
-Maecenas velit urna, vestibulum fringilla scelerisque et, vestibulum vel lacus. Donec arcu risus, semper eu purus in, volutpat pellentesque dui. Quisque sem risus, cursus imperdiet viverra vel, bibendum id nibh. Etiam pretium, diam congue egestas molestie, urna metus dictum magna, eget elementum augue lectus eget erat. Sed hendrerit lectus non nulla posuere, ultricies tempor ipsum vehicula. Praesent non feugiat turpis. In pretium, lectus sit amet venenatis sollicitudin, massa augue euismod felis, sit amet elementum sapien est eget ante. Sed tempus condimentum leo, eu cursus tortor dapibus ut. Morbi massa dui, convallis iaculis leo at, fringilla sodales diam.
-
-Nulla tristique lectus vel tincidunt condimentum. Phasellus posuere nulla a lorem ullamcorper, sed varius elit dapibus. Vestibulum laoreet ligula sed lacus lobortis pulvinar ac ac est. Praesent maximus hendrerit lorem, vitae laoreet neque semper eu. Vestibulum euismod magna sed nulla accumsan efficitur. Integer eleifend, purus nec scelerisque mattis, tellus leo pulvinar nibh, et interdum nulla orci eget lectus. Mauris hendrerit lectus sem. Proin condimentum condimentum augue, maximus finibus ex pretium eu. Proin a eros laoreet, commodo ex blandit, vestibulum felis. Mauris viverra lacus ex, eu eleifend magna hendrerit pellentesque. Nam vehicula lacus et sem volutpat, egestas condimentum ex luctus. Proin at tempor diam. Nunc pulvinar facilisis maximus. Aliquam nec urna arcu.
-
-Suspendisse elementum neque purus, at dictum dolor faucibus a. Aenean volutpat augue quis nisi malesuada gravida. Nullam feugiat aliquam leo non malesuada. Quisque cursus nunc nec eros volutpat, sed iaculis quam consequat. Nulla pulvinar lobortis efficitur. Curabitur eget porttitor mauris. Pellentesque varius metus id ante bibendum bibendum. In hac habitasse platea dictumst. Nunc varius nisl et metus sollicitudin, id aliquam metus ornare. Quisque ac auctor ligula, id lobortis ex. Maecenas vel sapien nulla. Quisque tempus mauris velit, sed pulvinar nisi tempor in. Vestibulum vestibulum, velit maximus tempor dapibus, tortor erat finibus massa, quis lacinia velit elit a ante. Proin quis viverra velit. Quisque a ante arcu.
-
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent scelerisque, quam eget dictum luctus, neque tellus ultricies mauris, at tempus felis tellus pharetra libero. Mauris eu nibh mattis, tristique leo consectetur, bibendum odio. Fusce efficitur nibh felis, ac ultrices mi ullamcorper a. Nunc et lorem at urna mollis auctor. Etiam non malesuada purus, sit amet rutrum arcu. Morbi neque elit, sollicitudin imperdiet imperdiet non, bibendum vitae justo. Etiam tincidunt urna sed laoreet maximus. Vivamus quis facilisis lorem, id lobortis ipsum. Maecenas ultrices justo eget enim aliquet aliquet. In scelerisque vitae velit non scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse sagittis ligula at ipsum feugiat, id malesuada lorem condimentum. In turpis orci, congue vel aliquam vel, dignissim quis quam. Maecenas sit amet est lorem. Sed sit amet sollicitudin nulla.
-
-Generated 5 paragraphs, 581 words, 3999 bytes of Lorem Ipsum
-Lorem Ipsum
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam velit quis sagittis luctus. Donec ligula lectus, laoreet nec velit vel, ultrices semper nisl. Nunc justo lorem, dapibus sit amet risus quis, euismod rhoncus ligula. Vivamus at justo id tortor accumsan congue. Ut volutpat, enim nec commodo blandit, massa dolor cursus lacus, ut dignissim est arcu nec lorem. Vestibulum facilisis, tellus quis condimentum ultrices, metus magna accumsan sapien, vel convallis justo dolor in dui. Quisque ultrices, velit et efficitur ullamcorper, tellus est finibus erat, condimentum laoreet nibh justo non nibh. Nullam venenatis leo tortor, vitae molestie lorem iaculis at. Donec vitae ligula vestibulum, rhoncus odio vitae, euismod mi. Etiam diam ligula, pellentesque ac augue a, vehicula fermentum risus. Morbi id lacus ac lacus egestas aliquam. Curabitur eu condimentum urna.
-
-Maecenas velit urna, vestibulum fringilla scelerisque et, vestibulum vel lacus. Donec arcu risus, semper eu purus in, volutpat pellentesque dui. Quisque sem risus, cursus imperdiet viverra vel, bibendum id nibh. Etiam pretium, diam congue egestas molestie, urna metus dictum magna, eget elementum augue lectus eget erat. Sed hendrerit lectus non nulla posuere, ultricies tempor ipsum vehicula. Praesent non feugiat turpis. In pretium, lectus sit amet venenatis sollicitudin, massa augue euismod felis, sit amet elementum sapien est eget ante. Sed tempus condimentum leo, eu cursus tortor dapibus ut. Morbi massa dui, convallis iaculis leo at, fringilla sodales diam.
-
-Nulla tristique lectus vel tincidunt condimentum. Phasellus posuere nulla a lorem ullamcorper, sed varius elit dapibus. Vestibulum laoreet ligula sed lacus lobortis pulvinar ac ac est. Praesent maximus hendrerit lorem, vitae laoreet neque semper eu. Vestibulum euismod magna sed nulla accumsan efficitur. Integer eleifend, purus nec scelerisque mattis, tellus leo pulvinar nibh, et interdum nulla orci eget lectus. Mauris hendrerit lectus sem. Proin condimentum condimentum augue, maximus finibus ex pretium eu. Proin a eros laoreet, commodo ex blandit, vestibulum felis. Mauris viverra lacus ex, eu eleifend magna hendrerit pellentesque. Nam vehicula lacus et sem volutpat, egestas condimentum ex luctus. Proin at tempor diam. Nunc pulvinar facilisis maximus. Aliquam nec urna arcu.
-
-Suspendisse elementum neque purus, at dictum dolor faucibus a. Aenean volutpat augue quis nisi malesuada gravida. Nullam feugiat aliquam leo non malesuada. Quisque cursus nunc nec eros volutpat, sed iaculis quam consequat. Nulla pulvinar lobortis efficitur. Curabitur eget porttitor mauris. Pellentesque varius metus id ante bibendum bibendum. In hac habitasse platea dictumst. Nunc varius nisl et metus sollicitudin, id aliquam metus ornare. Quisque ac auctor ligula, id lobortis ex. Maecenas vel sapien nulla. Quisque tempus mauris velit, sed pulvinar nisi tempor in. Vestibulum vestibulum, velit maximus tempor dapibus, tortor erat finibus massa, quis lacinia velit elit a ante. Proin quis viverra velit. Quisque a ante arcu.
-
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent scelerisque, quam eget dictum luctus, neque tellus ultricies mauris, at tempus felis tellus pharetra libero. Mauris eu nibh mattis, tristique leo consectetur, bibendum odio. Fusce efficitur nibh felis, ac ultrices mi ullamcorper a. Nunc et lorem at urna mollis auctor. Etiam non malesuada purus, sit amet rutrum arcu. Morbi neque elit, sollicitudin imperdiet imperdiet non, bibendum vitae justo. Etiam tincidunt urna sed laoreet maximus. Vivamus quis facilisis lorem, id lobortis ipsum. Maecenas ultrices justo eget enim aliquet aliquet. In scelerisque vitae velit non scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse sagittis ligula at ipsum feugiat, id malesuada lorem condimentum. In turpis orci, congue vel aliquam vel, dignissim quis quam. Maecenas sit amet est lorem. Sed sit amet sollicitudin nulla.
-
-Generated 5 paragraphs, 581 words, 3999 bytes of Lorem Ipsum
-
+    <main>
+        <div class="contenedor">
+            <img src="./img/home/home1.jpg" alt="home" class="img-logo">
+        </div>
+        <div class="contenedor-paneles">
+            <div class="carta">
+                <h2>Desarrollo Web</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="carta">
+                <h2>Hosting</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="carta">
+                <h2>SEO</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="carta">
+                <h2>Gestión de Redes Sociales</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+    </main>
 <footer>
     <?php
         include './lib/footer.php';

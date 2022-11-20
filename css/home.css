@@ -1,5 +1,115 @@
+:root{
+    --color-fondo: #27282F;
+}
 * { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.contenedor{
+    background-color: var(--color-fondo);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* HEADER */
+
+header nav{
+    width: 80%;
+    margin: auto;
+    padding: .5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 130px;
+    cursor: pointer;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* BOTON ¿EMPEZAMOS? AÑADIR FUNCIONALIDAD CON JAVASCRIPT */
+
+.empezamos{
+    padding: 15%;
+    background-color: red;
+}
+
+header nav ul li::before{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: gold;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+header nav ul li:hover::before{
+    width: 100%;
+}
+/* FOOTER */
+
+footer nav{
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative; 
+}
+footer nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.icono{
+    width: 20px;
+    cursor: pointer;
+}
+.contenedor{
+    width: 100%;
+    height: auto;
+}
+.img-logo{
+    width: 100%;
+    height: 500px;
+}
+.contenedor-paneles{
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    display: flex; /* PARA PONERLOS EN BLOQUES HORIZONTALMENTE */
+}
+.carta h2{
+    text-align: center;
+    margin: 1em;
+    color: var(--color-letra);
+}
+
+
+.carta{
+    margin: 2.5em;
+    padding: 2em;
+    color: var(--color-letra);
+
 }
