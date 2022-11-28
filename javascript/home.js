@@ -1,3 +1,10 @@
 window.onload = function(){
-    var array_imagenes = ['./img/home/home1.jpg',]
+    
+    var btn_empezamos = document.getElementById('empezamos');
+    //btn_empezamos.onclick = 
+
+
+
+
+
 }
