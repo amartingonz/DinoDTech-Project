@@ -1,0 +1,41 @@
+:root{
+    --color-fondo: #27282F;
+}
+.contenedor-paneles{
+    padding: 4rem;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    display: flex; /* PARA PONERLOS EN BLOQUES HORIZONTALMENTE */
+}
+
+h1{
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    margin-top: 13%;
+    font-size: 4rem;
+    color:white;
+}
+
+.carta h2{
+    color: white;
+    text-align: center;
+    margin: 1em;
+}
+
+.carta{
+    background-color: var(--color-fondo);
+    border-radius: 2rem;
+    margin: 2.5em;
+    padding: 2em;
+    color: white;
+}
+
+div .contratar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    color: blue;
+}
