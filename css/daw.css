@@ -1,12 +1,20 @@
 :root{
     --color-fondo: #27282F;
 }
+*{
+    font-family: Quantico;
+}
 .contenedor-paneles{
     padding: 4rem;
     width: 100%;
     background-color: white;
     overflow: hidden;
     display: flex; /* PARA PONERLOS EN BLOQUES HORIZONTALMENTE */
+}
+.contenedor-titulo{
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 2.5rem;
 }
 
 h1{
@@ -18,24 +26,36 @@ h1{
     color:white;
 }
 
-.carta h2{
+.carta{
+    background-color: var(--color-fondo);
+    border-radius: 2.5rem;
+    margin: 2.5em;
+    width: 20rem;
+    color: white;
+}
+.carta h3{
     color: white;
     text-align: center;
     margin: 1em;
+    font-size: 2em;
 }
+.carta h4{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5em;
 
-.carta{
-    background-color: var(--color-fondo);
-    border-radius: 2rem;
-    margin: 2.5em;
-    padding: 2em;
-    color: white;
 }
-
-div .contratar{
+.carta ul li{
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+.contratar{
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 1rem;
+    border-radius: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin:auto;
     color: blue;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }

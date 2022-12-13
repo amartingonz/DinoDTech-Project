@@ -3,6 +3,9 @@
 }
 
 /* MAIN */
+*{
+    font-family: Quantico;
+}
 
 .contenedor-marcas{
     margin: 4rem;

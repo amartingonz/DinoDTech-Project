@@ -1,7 +1,9 @@
 :root{
     --color-fondo: #27282F;
 }
-
+*{
+    font-family: Quantico;
+}
 /* FOOTER */
 
 footer nav{
