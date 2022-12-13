@@ -7,6 +7,33 @@
     font-family: Quantico;
 }
 
+.contenedor-home{
+    /* CONTIENE EL SLOGAN Y LA IMAGEN */
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.contenedor-slogan{
+    /*CONTENEDOR SLOGAN DE LA PÁGINA DE HOME*/
+    width: 50%;
+    font-size: 6rem;
+}
+
+.contenedor-imagen{
+    /*CONTENEDOR IMAGEN DE LA PÁGINA DE HOME*/
+    width: 50%;
+
+}
+.contenedor-imagen img{
+    /*CONTENEDOR IMAGEN */
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
 .contenedor-marcas{
     margin: 4rem;
     font-size: 30px;

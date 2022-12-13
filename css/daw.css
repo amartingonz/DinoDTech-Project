@@ -9,7 +9,9 @@
     width: 100%;
     background-color: white;
     overflow: hidden;
-    display: flex; /* PARA PONERLOS EN BLOQUES HORIZONTALMENTE */
+    display:inline-flex; /* PARA PONERLOS EN BLOQUES HORIZONTALMENTE */
+    justify-content: center;
+    
 }
 .contenedor-titulo{
     margin-top: 2.5rem;
