@@ -54,7 +54,7 @@ h1{
     list-style-type: square;
 }
 .carta:hover{
-    transform: scale(1.1);
+    transform: scale(1.1); 
 }
 .contratar{
     display: flex;
@@ -62,7 +62,7 @@ h1{
     border-radius: 1.5rem;
     padding: 0.5rem 1rem;
     margin:auto;
-    color: blue;
+    color: black;
     cursor: pointer;
     transition: all 500ms;
 
@@ -80,8 +80,8 @@ h1{
     margin-bottom: 2rem;
 }
 .contratar:hover{
-    background-color: blue;
-    color: white;
+    background-color: gold;
+    color: black;
     transition: all 500ms;
 }
 /*  */
