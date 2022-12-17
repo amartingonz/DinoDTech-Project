@@ -1,5 +1,5 @@
 :root{
-    --color-fondo: #27282F;
+    --color-fondo: #27282F; /* var color de fondo */
 }
 * { 
     margin: 0;
