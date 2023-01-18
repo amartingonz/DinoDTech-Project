@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="icon" type="image/png" href="../img/logo.png"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quantico">
+    <!-- <link rel="stylesheet" media="(max-width: 800px)" href="./css/home.css" /> -->
     <title>DinoDTech</title>
 </head>
 <body>
@@ -17,12 +18,12 @@
                 <nav>
                     <a href="#"><img src="./img/logo.png" alt="logo" class="logo"></a>
                     <ul>
-                        <li><a href="pages/daw.html">Desarrollo Web</a></li>
-                        <li><a href="pages/hosting.html">Hosting</a></li>
-                        <li><a href="pages/seo.html">SEO</a></li>
-                        <li><a href="pages/mantenimiento.html">Mantenimiento</a></li>
-                        <li><a href="pages/gsmedia.html">Gestión de Redes Sociales</a></li>
-                        <li><a href="pages/blog.html">Blog</a></li>
+                        <li><a href="vistas/daw.html">Desarrollo Web</a></li>
+                        <li><a href="vistas/hosting.html">Hosting</a></li>
+                        <li><a href="vistas/seo.html">SEO</a></li>
+                        <li><a href="vistas/mantenimiento.html">Mantenimiento</a></li>
+                        <li><a href="vistas/gsmedia.html">Gestión de Redes Sociales</a></li>
+                        <li><a href="vistas/blog.html">Blog</a></li>
                         <li><button class="empezamos" id="empezamos">¿Empezamos?</button></li>
                     </ul>
                 </nav>
@@ -34,12 +35,24 @@
                     <h1>Te ayudamos a digitalizar tu negocio</h1>
                 </section>
                 <section class="contenedor-imagen">
-                    <img src="./img/home/imagen-bombilla.png" alt="">
+                    <picture>
+                        <source type="image/png"  media="(max-width: 300px)" srcset="./img/home/imagen-bombilla300.png" />
+                        <source type="image/png"  media="(min-width: 301px) and (max-width: 999px)" srcset="./img/home/imagen-bombilla700.png" />
+                        <source type="image/png"  media="(min-width: 1000px) and (max-width: 1199px)" srcset="./img/home/imagen-bombilla1000.png" />
+                        <source type="image/png"  media="(min-width: 1200px)" srcset="./img/home/imagen-bombilla1000.png" />
+                        <img src="./img/home/imagen-bombilla.png" alt="bombilla" />
+                    </picture>
                 </section>
             </section>
             <section class="contenedor-marcas">
                 <h2>Algunos de nuestros clientes</h2>
-                <img src="./img/home/marcas.png" alt="marcas" class="marcas">
+                <picture>
+                    <source type="image/png"  media="(max-width: 300px)" srcset="./img/home/marcas300.png"/>
+                    <source type="image/png"  media="(min-width: 301px) and (max-width: 999px)" srcset="./img/home/marcas700.png" />
+                    <source type="image/png"  media="(min-width: 1000px) and (max-width: 1199px)" srcset="./img/home/marcas1000.png" />
+                    <source type="image/png"  media="(min-width: 1200px)" srcset="./img/home/marcas1000.png" />          
+                    <img src="./img/home/marcas.png" alt="marcas" />
+                </picture>
             </section>
             </div>
     </main>

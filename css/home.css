@@ -47,3 +47,8 @@
     width: 65%;
     
 }
+@media (max-width: 600px) {
+    .contenedor-imagen img {
+      src: url("../img/home/imagen-bombilla300.png");
+    }
+  }
