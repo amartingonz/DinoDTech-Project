@@ -1,0 +1,75 @@
+// @import "variables";
+
+
+$color-fondo: #27282F;
+$color-header: white;
+$color-boton: gold;
+$fuente-letra: Quantico;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fuente-letra;
+}
+.contenedor{
+    background-color: #27282F;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+header nav{
+    width: 80%;
+    margin: auto;
+    padding: .5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+        ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            position: relative;
+            a{
+                text-decoration: none;
+                color: white;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                &::before{
+                    content: "";
+                    height: 3px;
+                    width: 0%;
+                    background: gold;
+                    position: absolute;
+                    left: 0;
+                    bottom: -12px;
+                    transition: 0.4s ease-out;
+                }
+                &:hover::before{
+                    width: 100%;
+                }
+            }
+        }
+        
+}
+.logo{
+    width: 70px;
+    cursor: pointer;
+}
+.empezamos{
+    padding: 15%;
+    background-color: rgb(255, 255, 255);
+    transition: all .5s;
+}
+.empezamos:hover{
+    color: black;
+    background-color:gold;
+    transition: all .5s;
+}
+.contenedor-imagen{
+    display: flex;
+    @extend .contenedor;
+    background-color: transparent ;
+}
