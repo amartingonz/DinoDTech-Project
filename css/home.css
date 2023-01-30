@@ -5,6 +5,7 @@
 /* MAIN */
 *{
     font-family: Quantico;
+
 }
 
 .contenedor-home{
@@ -47,8 +48,24 @@
     width: 65%;
     
 }
-@media (max-width: 600px) {
-    .contenedor-imagen img {
-      src: url("../img/home/imagen-bombilla300.png");
+@media screen and (max-width: 600px){
+    
+    .contenedor-home{
+        margin-top: 0;
     }
-  }
+    .contenedor-slogan{
+        font-size: 1.5rem;
+    }
+
+    .contenedor-marcas{
+        font-size: 1.5rem;
+    }
+    .contenedor-imagen{
+        padding-top: 6rem;
+        width: 300px;
+    }
+    .contenedor-marcas img{
+        width: 300px;
+        height: auto;
+    }
+}

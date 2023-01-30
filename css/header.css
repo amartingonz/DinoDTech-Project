@@ -14,6 +14,10 @@
     background-position: center;
     text-align: center;
 }
+.menu-desplegable{
+    visibility: hidden;
+    cursor: pointer;
+}
 
 .contenedor-imagen{
     width: 100%;
@@ -78,4 +82,33 @@ header nav ul li a::before{
 }
 header nav ul li a:hover::before{
     width: 100%;
+}
+
+@media screen and (max-width: 600px){
+
+    .menu-desplegable{
+        cursor: pointer;
+        visibility: visible;
+        float: right;
+        margin-top: 5%;
+        margin-right: 5%;
+        
+    }
+    header nav ul li{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 1.5rem;
+    }
+    .logo{
+        width: 50px;
+    }
+
+    .contenedor nav ul{
+        display: none;
+    }
+
+    .empezamos{
+        padding: 5%;
+    }
 }
