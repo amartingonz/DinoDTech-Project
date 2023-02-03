@@ -7,6 +7,11 @@
 
 /* FOOTER */
 
+footer{
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+}
 footer nav{
     width: 80%;
     margin: auto;
@@ -37,4 +42,32 @@ footer nav ul li a{
 .img-logo{
     width: 100%;
     height: 500px;
+}
+
+@media(max-width: 320px){
+    footer nav ul li{
+        margin: auto;
+    }
+    footer nav ul li a{
+        font-size: .5rem;
+    }
+    .icono{
+        width: 100%;
+        height: 10px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    footer nav ul li{
+        margin: auto;
+    }
+    footer nav ul li a{
+        font-size: 0.5rem;
+    }
+    .img-logo{
+        width: 100%;
+        height: 10px;
+    }
+
+    
 }

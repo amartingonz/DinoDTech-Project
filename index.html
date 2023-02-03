@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./sass/header.css">
+    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./sass/footer.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="icon" type="image/png" href="../img/logo.png"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quantico">
-    <!-- <link rel="stylesheet" media="(max-width: 800px)" href="./css/home.css" /> -->
-    <script src="./js/script.js"></script>
+    <script src="./js/script.js" defer></script>
+    <script src="./js/jquery-3.6.3.min.js"></script>
     <title>DinoDTech</title>
 </head>
 <body>
     <header>
         <section class="contenedor">
-            <button class="menu-desplegable" id="boton-menu" onclick="menu()">Menú</button>
                 <nav id="menu">
                     <a href="#"><img src="./img/logo.png" alt="logo" class="logo"></a>
                     <ul>
@@ -28,6 +27,7 @@
                         <li><a href="vistas/blog.html">Blog</a></li>
                         <li><button class="empezamos" id="empezamos">¿Empezamos?</button></li>
                     </ul>
+                    <button class="menu-desplegable" id="boton-menu" onclick="menu()">Menú</button>
                 </nav>
             </section>
     </header>
@@ -64,7 +64,7 @@
             <nav>
                 <a href="#"><img src="./img/logo.png" alt="logo" class="logo"></a>
                 <ul>
-                    <li><a href="contacto.php">Contacto</a></li>
+                    <!-- <li><a href="contacto.php">Contacto</a></li> -->
                     <li><a href=""><img src="./img/iconos/icono_instagram.png" alt="instagram" class="icono"></a></li>
                     <li><a href=""><img src="./img/iconos/icono_facebook.png" alt="facebook" class="icono"></a></li>
                     <li><a href=""><img src="./img/iconos/icono_twitter.png" alt="twitter" class="icono"></a></li>
