@@ -82,7 +82,7 @@ header nav ul li a:hover::before{
     width: 100%;
 }
 
-@media (min-width: 320px){
+@media (max-width: 320px){
     .contenedor{
         display: flex;
         float: right;
@@ -114,7 +114,7 @@ header nav ul li a:hover::before{
 }
 
 
-@media (min-width: 600px and max-width: 768px){
+@media (max-width: 600px){
 
     .contenedor{
         display: flex;
@@ -164,9 +164,6 @@ header nav ul li a:hover::before{
     }
 }
 /* @media screen and (max-width: 1024px) */
-
-/* @media screen and (max-width: 1024px) */
-
 
 /* @media screen and (max-width: 768) */
 

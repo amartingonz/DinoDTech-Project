@@ -90,3 +90,27 @@
         height: auto;
     }
 }
+
+@media (max-width: 768px){
+
+    .contenedor-home{
+        margin-top: 0;
+    }
+    .contenedor-slogan{
+        font-size: 1.5rem;
+    }
+
+    .contenedor-marcas{
+        font-size: 1.5rem;
+    }
+    .contenedor-imagen{
+        padding-top: 6rem;
+        width: 200px;
+    }
+    .contenedor-marcas img{
+        width: 200px;
+        height: auto;
+    }
+
+
+}

@@ -1,0 +1,53 @@
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-btn {
+    border: 0;
+    background-color: rgb(115, 180, 249);
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 0.8rem;
+}
+
+.menu-btn:hover {
+    background-color: rgba(115, 180, 249, 0.5);
+    cursor: pointer;
+}
+
+ul {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    margin-left: 1rem;
+    min-width: 10rem;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul li {
+    display: block;
+    list-style-type: none;
+    max-width: 10rem;
+    padding: 0.3rem 0;
+}
+
+ul li:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+ul li a {
+    color: #333;
+    display: block;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #fff;
+}
+
+.menu:hover ul {
+    display: block;
+}
