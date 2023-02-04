@@ -18,7 +18,7 @@ $('#boton-menu').click(function(){
     })
     }else{
         $('#menu ul li').hide(function(){
-            $('#menu ul li').css('display','none');
+            $('#menu ul li').css('display', "");
             estado = true;
     })
     }

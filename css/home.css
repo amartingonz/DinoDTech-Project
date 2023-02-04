@@ -48,14 +48,13 @@
     width: 65%;
     
 }
-@media (max-width: 320px){
- .contenedor-home{
+@media (max-width: 480px){
+    .contenedor-home{
         margin-top: 0;
     }
     .contenedor-slogan h1{
         font-size: 1.2rem;
     }
-
     .contenedor-marcas h2{
         font-size: 1.2rem;
     }
@@ -69,29 +68,30 @@
     }
 }
 
-@media (max-width: 600px){
+@media (min-width:481px) and (max-width: 779px){
     
     .contenedor-home{
         margin-top: 0;
     }
-    .contenedor-slogan{
-        font-size: 1.2rem;
+    .contenedor-slogan h1{
+        font-size: 1.5rem;
+        margin-top: 2rem;
     }
 
-    .contenedor-marcas{
-        font-size: 1.2rem;
+    .contenedor-marcas h2{
+        font-size: 1.5rem;
     }
     .contenedor-imagen{
         padding-top: 6rem;
-        width: 200px;
+        width: 300px;
     }
     .contenedor-marcas img{
-        width: 200px;
+        width: 300px;
         height: auto;
     }
 }
 
-@media (max-width: 768px){
+@media (min-width: 780px){
 
     .contenedor-home{
         margin-top: 0;
@@ -99,17 +99,48 @@
     .contenedor-slogan{
         font-size: 1.5rem;
     }
-
-    .contenedor-marcas{
+    
+    .contenedor-marcas {
         font-size: 1.5rem;
     }
     .contenedor-imagen{
         padding-top: 6rem;
-        width: 200px;
+        width: 300px;
     }
     .contenedor-marcas img{
-        width: 200px;
+        width: 300px;
         height: auto;
+    }
+}
+
+
+@media (min-width: 1200px){
+    .contenedor-home{
+        margin-top: 0;
+    }
+    .contenedor-slogan{
+        font-size: 3rem;
+        
+    }
+    .contenedor-slogan h1{
+        padding-left: 25rem;
+    }
+
+    .contenedor-marcas h2{
+        font-size: 3rem;
+        margin-bottom: 5rem;
+    }
+    .contenedor-imagen{
+        padding-top: 6rem;
+        width: 490px;
+    }
+    .contenedor-marcas img{
+        width: 490px;
+        height: auto;
+    }
+
+    body{
+        background-color: white;
     }
 
 

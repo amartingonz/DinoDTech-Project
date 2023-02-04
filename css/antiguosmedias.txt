@@ -1,0 +1,90 @@
+
+@media (max-width: 320px){
+    .contenedor{
+        display: flex;
+        float: right;
+    }
+    .menu-desplegable{
+        border-radius: 6px;
+        justify-content: flex-end;
+        cursor: pointer;
+        visibility: visible;
+        border: none;
+        background-color: transparent;
+        color: white;
+    }
+    header nav ul li{
+        margin-top: 1.5rem;
+        display: none;
+    }
+    header nav ul li a{
+        font-size: 0.8rem;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .logo{
+        width: 50px;
+    }
+    .empezamos{
+        padding: 5%;
+    }
+}
+
+
+@media (max-width: 600px){
+
+    .contenedor{
+        display: flex;
+        float: right;
+    }
+    .menu-desplegable{
+        border-radius: 6px;
+        justify-content: flex-end;
+        cursor: pointer;
+        visibility: visible;
+        border: none;
+        background-color: transparent;
+        color: red;
+    }
+    header nav ul li{
+        margin-top: 1.5rem;
+        display: none;
+    }
+    header nav ul li a{
+        font-size: 0.8rem;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .logo{
+        width: 50px;
+    }
+    .empezamos{
+        padding: 5%;
+    }
+}
+@media (min-width: 768px){
+    
+    .menu-desplegable{
+        visibility: hidden;
+    }
+    header nav ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+    }
+    
+    header nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+/* @media screen and (max-width: 1024px) */
+
+/* @media screen and (max-width: 768) */
+
+
+/* @media screen and (max-width: 2560px) */
+
+/* @media screen and (max-width: 1024px) */

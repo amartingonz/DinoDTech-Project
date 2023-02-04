@@ -9,22 +9,22 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="icon" type="image/png" href="../img/logo.png"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quantico">
+    <script src="../js/script.js" defer></script>
+    <script src="../js/jquery-3.6.3.min.js"></script>
     <title>Desarrollo Web</title>
 </head>
 <body>
     <header>
         <section class="contenedor">
-            <nav>
+            <nav class="menu" id="menu">
                 <a href="../index.html"><img src="../img/logo.png" alt="logo" class="logo"></a>
                 <ul>
                     <li><a href="#">Desarrollo Web</a></li>
                     <li><a href="hosting.html">Hosting</a></li>
-                    <li><a href="seo.html">SEO</a></li>
                     <li><a href="mantenimiento.html">Mantenimiento</a></li>
-                    <li><a href="gsmedia.html">Gestión de Redes Sociales</a></li>
-                    <li><a href="blog.html">Blog</a></li>
                     <li><button class="empezamos" id="empezamos">¿Empezamos?</button></li>
                 </ul>
+                <button class="menu-desplegable" id="boton-menu" onclick="menu()">Menú</button>
             </nav>
         </section>
     </header>
