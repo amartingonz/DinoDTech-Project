@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/hosting.css">
+    <link rel="stylesheet" href="../css/contacto.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="icon" type="image/png" href="../img/logo.png"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quantico">
@@ -19,8 +19,8 @@
             <nav class="menu" id="menu">
                 <a href="../index.html"><img src="../img/logo.png" alt="logo" class="logo"></a>
                 <ul>
-                    <li><a href="daw.html">Desarrollo Web</a></li>
-                    <li><a href="#">Hosting</a></li>
+                    <li><a href="#">Desarrollo Web</a></li>
+                    <li><a href="hosting.html">Hosting</a></li>
                     <li><a href="mantenimiento.html">Mantenimiento</a></li>
                     <li><a href="contacto.html"><button class="empezamos" id="empezamos">¿Empezamos?</button></a></li>
                 </ul>
@@ -30,53 +30,28 @@
     </header>
     <main>
         <section class="contenedor-imagen">
-            <h1>Hosting</h1>
-            <img src="../img/hosting/hosting.jpg" alt="home" class="img-logo">
+            <h1>Contacto</h1>
+            <img src="../img/daw/code.jpg" alt="home" class="img-logo">
         </section>
         <section class="contenedor-titulo">
-            <h2>PLANES DE HOSTING</h2>
+            <h2>Formulario de contacto</h2>
+            <form action="" class="formulario">
+                <label for="nombre">Nombre:</label>
+                <br>
+                <input type="text" id="nombre" class="nombre">
+                <br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" class="email">
+                <br>
+                <label for="asunto">Asunto:</label>
+                <br>
+                <textarea class="asunto" id="asunto" cols="30" rows="10"></textarea>
+                <br>
+                <input type="button"  class="boton"  value="Enviar">
+            </form>
         </section>
-        <section class="contenedor-paneles">
-            <section class="carta">
-                <h3>Básico</h3>
-                <h4>4,99€/mes</h4>
-                <ul>
-                    <li>1 sitio web</li>
-                    <li>50 GB de SSD</li>
-                    <li>~10 000 visitas al mes</li>
-                    <li>1 cuenta de email</li>
-                    <li>100 GB de ancho de banda</li>
-                    <li>2 bases de datos</li>
-                </ul>
-                <button class="contratar contratar-1">Contratar</button>
-            </section>
-            <section class="carta">
-                <h3>Avanzado</h3>
-                <h4>10,99€/mes</h4>
-                <ul>
-                    <li>3 sitio web</li>
-                    <li>100 GB de SSD</li>
-                    <li>~25 000 visitas al mes</li>
-                    <li>3 cuenta de email</li>
-                    <li>Ancho de banda ilimitado</li>
-                    <li>Bases de datos ilimitadas</li>
-                </ul>
-                <button class="contratar contratar-2">Contratar</button>
-            </section>
-            <section class="carta">
-                <h3>Profesional</h3>
-                <h4>19,99€/mes</h4>
-                <ul>
-                    <li>100 sitios web</li>
-                    <li>300 GB de SSD</li>
-                    <li>~100 000 visitas al mes</li>
-                    <li>5 cuenta de email</li>
-                    <li>Ancho de banda ilimitado</li>
-                    <li>Bases de datos ilimitadas</li>
-                </ul>
-                <button class="contratar contratar-3">Contratar</button>
-            </section>
-        </section>
+        
     </main>
     <footer>
         <section class="contenedor">

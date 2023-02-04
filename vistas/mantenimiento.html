@@ -4,44 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/mantenimiento.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <link rel="icon" type="image/png" href="../img/logo.png"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quantico">
+    <script src="../js/script.js" defer></script>
+    <script src="../js/jquery-3.6.3.min.js"></script>
     <title>Desarrollo Web</title>
 </head>
 <body>
-<header>
-    <div class="contenedor">
-        <nav>
-            <a href="../index.html"><img src="../img/logo.png" alt="logo" class="logo"></a>
-            <ul>
-                <li><a href="daw.html">Desarrollo Web</a></li>
-                <li><a href="hosting.html">Hosting</a></li>
-                <li><a href="seo.html">SEO</a></li>
-                <li><a href="#">Mantenimiento</a></li>
-                <li><a href="gsmedia.html">Gestión de Redes Sociales</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><button class="empezamos" id="empezamos">¿Empezamos?</button></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-<main>
-
-</main>
-<footer>
-    <div class="contenedor">
-        <nav>
-        <a href="index.html"><img src="../img/logo.png" alt="logo" class="logo"></a>
-            <ul>
-                <li><a href="contacto.php">Contacto</a></li>
-                <li><a href=""><img src="../img/iconos/icono_instagram.png" alt="instagram" class="icono"></a></li>
-                <li><a href=""><img src="../img/iconos/icono_facebook.png" alt="facebook" class="icono"></a></li>
-                <li><a href=""><img src="../img/iconos/icono_twitter.png" alt="twitter" class="icono"></a></li>
-                <li><a href="aviso-legal.php">Aviso Legal</a></li>
-                <li><a href="cookies.php">Políticas de Privacidad y Cookies</a></li>
-            </ul>
-        </nav>
-    </div>
-</footer>
+    <header>
+        <section class="contenedor">
+            <nav class="menu" id="menu">
+                <a href="../index.html"><img src="../img/logo.png" alt="logo" class="logo"></a>
+                <ul>
+                    <li><a href="daw.html">Desarrollo Web</a></li>
+                    <li><a href="hosting.html">Hosting</a></li>
+                    <li><a href="#">Mantenimiento</a></li>
+                    <li><a href="contacto.html"><button class="empezamos" id="empezamos">¿Empezamos?</button></a></li>
+                </ul>
+                <button class="menu-desplegable" id="boton-menu" onclick="menu()">Menú</button>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="contenedor-imagen">
+            <h1>Mantenimiento</h1>
+            <img src="../img/daw/code.jpg" alt="home" class="img-logo">
+        </section>
+        <section class="contenedor-titulo">
+            <h2>PLANES DE MANTENIMIENTO</h2>
+        </section>
+        <section class="contenedor-paneles">
+            <section class="carta">
+                <h3>Básico</h3>
+                <h4>450€</h4>
+                <ul>
+                    <li>Actualizaciones de Pluigns</li>
+                    <li>Actualizaciones de Temas</li>
+                    <li>Monitorización Web 24/7</li>
+                    <li>Comprobación Seguridad Web</li>
+                    <li>Backups Automáticos</li>
+                    <li>Sin Permanencia</li>
+                    <li>Soporte Avanzado de Tickets</li>
+                    <li>Tiempo de Respuesta 48h</li>
+                </ul>
+                <button class="contratar contratar-1">Contratar</button>
+            </section>
+            <section class="carta">
+                <h3>Avanzado</h3>
+                <h4>700€</h4>
+                <ul>
+                    <li>Actualizaciones de Pluigns</li>
+                    <li>Actualizaciones de Temas</li>
+                    <li>Monitorización Web 24/7</li>
+                    <li>Comprobación Seguridad Web</li>
+                    <li>Backups Automáticos</li>
+                    <li>Sin Permanencia</li>
+                    <li>Soporte Avanzado de Tickets</li>
+                    <li>Tiempo de Respuesta 24h</li>
+                    <li>Optimización Velocidad Semanal</li>
+                </ul>
+                <button class="contratar contratar-2">Contratar</button>
+            </section>
+            <section class="carta">
+                <h3>Profesional</h3>
+                <h4>1350€</h4>
+                <ul>
+                    <li>Actualizaciones de Pluigns</li>
+                    <li>Actualizaciones de Temas</li>
+                    <li>Monitorización Web 24/7</li>
+                    <li>Comprobación Seguridad Web</li>
+                    <li>Backups Automáticos</li>
+                    <li>Sin Permanencia</li>
+                    <li>Soporte Avanzado de Tickets</li>
+                    <li>Tiempo de Respuesta 12h</li>
+                    <li>Optimización Velocidad Semanal</li>
+                    <li>2 Horas de Desarrollo Web al Mes</li>
+                </ul>
+                <button class="contratar contratar-3">Contratar</button>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <section class="contenedor">
+            <nav>
+            <a href="index.html"><img src="../img/logo.png" alt="logo" class="logo"></a>
+                <ul>
+                    <li><a href="contacto.php">Contacto</a></li>
+                    <li><a href=""><img src="../img/iconos/icono_instagram.png" alt="instagram" class="icono"></a></li>
+                    <li><a href=""><img src="../img/iconos/icono_facebook.png" alt="facebook" class="icono"></a></li>
+                    <li><a href=""><img src="../img/iconos/icono_twitter.png" alt="twitter" class="icono"></a></li>
+                    <li><a href="aviso-legal.php">Aviso Legal</a></li>
+                    <li><a href="cookies.php">Políticas de Privacidad y Cookies</a></li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
 </body>
 </html>
