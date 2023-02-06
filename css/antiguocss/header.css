@@ -1,0 +1,228 @@
+:root{
+    --color-fondo: #27282F; /* var color de fondo */
+}
+html{
+    overflow-x: hidden;
+}
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quantico;
+}
+.contenedor{
+    background-color: var(--color-fondo);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.menu-desplegable{
+    visibility: hidden;
+    cursor: pointer;
+}
+.contenedor-imagen{
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+/* HEADER */
+
+header nav{
+    width: 80%;
+    margin: auto;
+    padding: .5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 70px;
+    cursor: pointer;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* BOTON EMPEZAMOS DEL HEADER */
+.empezamos{
+    padding: 15%;
+    background-color: rgb(255, 255, 255);
+    transition: all .5s;
+}
+.empezamos:hover{
+    color: black;
+    background-color:gold;
+    transition: all .5s;
+}
+header nav ul li a::before{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: gold;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+header nav ul li a:hover::before{
+    width: 100%;
+}
+
+@media (max-width: 480px){
+    .contenedor{
+        display: flex;
+        float: right;
+    }
+    .menu-desplegable{
+        border-radius: 6px;
+        justify-content: flex-end;
+        cursor: pointer;
+        visibility: visible;
+        border: none;
+        background-color: transparent;
+        color: white;
+    }
+    header nav ul li{
+        margin-top: 1.5rem;
+        display: none;
+    }
+    header nav ul li a{
+        font-size: 0.8rem;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .logo{
+        width: 50px;
+    }
+    .empezamos{
+        padding: 5%;
+    }
+}
+@media (min-width:481px) and (max-width: 779px){
+
+    .contenedor{
+        display: flex;
+        float: right;
+    }
+    .menu-desplegable{
+        border-radius: 6px;
+        justify-content: flex-end;
+        cursor: pointer;
+        visibility: visible;
+        border: none;
+        background-color: transparent;
+        color: white;
+    }
+    header nav ul li{
+        margin-top: 1.5rem;
+        display: none;
+    }
+    header nav ul li a{
+        font-size: 0.8rem;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .logo{
+        width: 50px;
+    }
+    .empezamos{
+        padding: 5%;
+    }
+}
+
+@media (min-width: 780px){
+    
+    .menu-desplegable{
+        visibility: hidden;
+    }
+    header nav ul li{
+        list-style: none;
+        display: block;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+    }
+    header nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .empezamos:hover{
+        color: black;
+        background-color:gold;
+        transition: all .5s;
+    }
+    header nav ul li a::before{
+        content: "";
+        height: 3px;
+        width: 0%;
+        background: gold;
+        position: absolute;
+        left: 0;
+        bottom: -12px;
+        transition: 0.4s ease-out;
+    }
+    header nav ul li a:hover::before{
+        width: 100%;
+    }
+}
+@media (min-width: 780px){
+    .menu-desplegable{
+        visibility: hidden;
+    }
+    header nav ul li{
+        list-style: none;
+        display: block;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+    }
+    header nav ul li a{
+        font-size: 0.8rem;
+        text-decoration: none;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .empezamos{
+        padding: 10%;
+    }
+}
+@media (min-width: 1200px){
+    .menu-desplegable{
+        visibility: hidden;
+    }
+    header nav ul li{
+        list-style: none;
+        display: block;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+    }
+    header nav ul li a{
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .empezamos{
+        padding: 15%;
+    }
+}
+
+
+
+
