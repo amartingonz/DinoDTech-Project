@@ -78,6 +78,7 @@
     padding-top: 6rem;
     width: 300px;
   }
+
 }
 @media (min-width: 780px) {
   .contenedor-home {
@@ -106,7 +107,7 @@
     font-size: 3rem;
   }
   .contenedor-slogan h1 {
-    padding-left: 25rem;
+    padding-left: 15rem;
   }
   .contenedor-marcas h2 {
     font-size: 3rem;

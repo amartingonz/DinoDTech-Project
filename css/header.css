@@ -110,6 +110,9 @@ header nav ul li a:hover::before {
   }
   .empezamos {
     padding: 5%;
+    background: none;
+    border: none;
+    color: gold;
   }
 }
 @media (min-width: 481px) and (max-width: 779px) {
