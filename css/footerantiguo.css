@@ -5,6 +5,8 @@
 
 footer {
   width: 100%;
+  bottom: auto;
+  position: absolute;
   
 }
 footer nav {
@@ -32,10 +34,10 @@ footer nav ul li a {
   cursor: pointer;
 }
 
-.contenedor_footer {
+.contenedor_footer { /* ESTO SE LLAMABA CONTENEDOR*/
   width: 100%;
   height: auto;
-  background-color: #27282F;
+  background-color: #27282F; /* ESTO NO ESTABA*/
   
 }
 
@@ -47,7 +49,7 @@ footer nav ul li a {
 @media (min-width: 300px) {
   footer{
     width: 100%;
-    position: relative;
+    position: relative; /* he puesto esto */
   }   
 }
 @media (max-width: 480px) {
@@ -61,10 +63,10 @@ footer nav ul li a {
     width: 100%;
     height: 10px;
   }
-  footer{
+  /* footer{
     position: absolute;
     bottom: 0;
-  } 
+  }  */
   
 }
 @media (min-width: 481px) and (max-width: 779px) {
@@ -78,19 +80,8 @@ footer nav ul li a {
     width: 100%;
     height: 10px;
   }
-  .contenedor_footer{
-    height: 60px;
-  }
   
-}
-@media(max-width: 1200px){
-  .contenedor_footer{
-    width: 100%;
-    height: 80px;
-    position: absolute;
-    bottom: 0;
-    background-color: #27282F;
-  }
+  
 }
 @media (min-width: 780px) {
   footer nav ul li {
@@ -108,7 +99,6 @@ footer nav ul li a {
     height: 50px;
   }
 }
-
 @media (min-width: 1200px) {
   footer nav ul li {
     margin: auto;
@@ -134,8 +124,8 @@ footer nav ul li a {
     width: 100%;
     height: 50px;
   }
- footer{
+ /* footer{
     position: absolute;
     bottom: 0;
-  } 
+  }  */
 }
