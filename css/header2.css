@@ -17,11 +17,82 @@
   text-align: center;
   background-color: #27282F; /* CAMBIAR Y USAR VARIABLES */
 }
-
-.menu-desplegable {
-  visibility: hidden;
-  cursor: pointer;
+/* AQUI RESPONSIVE MENU*/
+header{
+  background-color: red;
 }
+.nav{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: var(--black);
+  overflow: hidden;
+
+}
+.menu a{
+  display: block;
+  padding: 30px;
+  color: var(--white);
+}
+.menu a:hover{
+  background-color: var(--gray);
+}
+.nav{
+  max-height: 0;
+  transition: max-height .5s ease-out;
+}
+/* Menu Icon */
+.hamb{
+  cursor: pointer;
+  float: right;
+  padding: 40px 20px;
+}/* Style label tag */
+
+.hamb-line {
+  background: var(--white);
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 24px;
+
+} /* Style span tag */
+
+.hamb-line::before,
+.hamb-line::after{
+  background: var(--white);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+.hamb-line::before{
+  top: 5px;
+}
+.hamb-line::after{
+  top: -5px;
+}
+
+.side-menu {
+  display: none;
+} /* Hide checkbox */
+
+.side-menu:checked ~ nav{
+  max-height: 100%;
+}
+.side-menu:checked ~ .hamb .hamb-line {
+  background: transparent;
+}
+.side-menu:checked ~ .hamb .hamb-line::before {
+  transform: rotate(-45deg);
+  top:0;
+}
+.side-menu:checked ~ .hamb .hamb-line::after {
+  transform: rotate(45deg);
+  top:0;
+}
+/* HASTA AQUI */
 
 .contenedor-imagen {
   width: 100%;
@@ -79,21 +150,37 @@ header nav ul li a:hover::before {
   background-color: gold;
   transition: all 0.5s;
 }
+/* Responsive menu */
+@media (min-width: 768px) {
+  .nav{
+      max-height: none;
+      top: 0;
+      position: relative;
+      float: right;
+      width: fit-content;
+      background-color: transparent;
+  }
+  .menu li{
+      float: left;
+  }
+  .menu a:hover{
+      background-color: transparent;
+      color: var(--gray);
+
+  }
+
+  .hamb{
+      display: none;
+  }
+}
+/* 
 
 @media (max-width: 480px) {
   .contenedor {
     display: flex;
     float: right;
   }
-  .menu-desplegable {
-    border-radius: 6px;
-    justify-content: flex-end;
-    cursor: pointer;
-    visibility: visible;
-    border: none;
-    background-color: transparent;
-    color: white;
-  }
+ 
   header nav ul li {
     margin-top: 1.5rem;
     display: none;
@@ -210,4 +297,4 @@ header nav ul li a:hover::before {
   .empezamos {
     padding: 15%;
   }
-}/*# sourceMappingURL=header.css.map */
+}# sourceMappingURL=header.css.map */

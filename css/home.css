@@ -1,4 +1,8 @@
 /* MAIN */
+html{
+  overflow-y: hidden;
+}
+
 * {
   font-family: Quantico;
   margin: 0;
