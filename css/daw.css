@@ -3,11 +3,23 @@
 }
 *{
     font-family: Quantico;
-}
-body{
-    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
+.contenedor-imagen{
+    display: inline-block;
+    align-items: center;
+}
+.contenedor-imagen img{
+    width: 100%;
+}
+.contenedor-h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .contenedor-paneles{
     padding: 4rem;
