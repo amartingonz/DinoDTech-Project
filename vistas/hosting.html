@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/headerMenu.css">
     <link rel="stylesheet" href="../css/hosting.css">
-    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/footerSecciones.css">
     <link rel="icon" type="image/png" href="../img/logo.png"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quantico">
     <script src="../js/script.js" defer></script>
@@ -15,23 +15,26 @@
 </head>
 <body>
     <header>
-        <section class="contenedor">
-            <nav class="menu" id="menu">
-                <a href="../index.html"><img src="../img/logo.png" alt="logo" class="logo"></a>
-                <ul>
-                    <li><a href="daw.html">Desarrollo Web</a></li>
-                    <li><a href="#">Hosting</a></li>
-                    <li><a href="mantenimiento.html">Mantenimiento</a></li>
-                    <li><a href="contacto.html"><button class="empezamos" id="empezamos">¿Empezamos?</button></a></li>
-                </ul>
-                <button class="menu-desplegable" id="boton-menu" onclick="menu()">Menú</button>
-            </nav>
-        </section>
+        <nav class="menu" id="menu">
+            <a href="../index.html"><img src="../img/logo.png" alt="logo" class="logo"></a>
+            <input type="checkbox"  id="check">
+            <label for="check" class="bar-btn">
+                <i class="fa-regular fa-bars">Menú</i>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="daw.html">Desarrollo Web</a></li>
+                <li><a href="hosting.html">Hosting</a></li>
+                <li><a href="mantenimiento.html">Mantenimiento</a></li>
+                <li><a class="active" href="contacto.html"><button class="empezamos" id="empezamos">¿Empezamos?</button></a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section class="contenedor-imagen">
-            <h1>Hosting</h1>
-            <img src="../img/hosting/hosting.jpg" alt="home" class="img-logo">
+            <section class="contenedor-h1">
+                <h1 id="titulo">Hosting</h1>
+            </section>
+            <img src="../img/hosting/hosting.jpg" alt="imagen-hosting" class="img-logo">
         </section>
         <section class="contenedor-titulo">
             <h2>PLANES DE HOSTING</h2>
@@ -79,11 +82,12 @@
         </section>
     </main>
     <footer>
-        <section class="contenedor">
-            <nav>
-            <a href="index.html"><img src="../img/logo.png" alt="logo" class="logo"></a>
+        <section class="contenedor_footer">
+        <!-- SECTION CON EL MENÚ COMPUESTO POR UN NAV CON UNA LISTA DE ENLACES Y UN BOTON -->
+            <nav class="nav-footer">
+                <a href="#"><img src="../img/logo.png" alt="logo" class="logo"></a>
                 <ul>
-                    <li><a href="contacto.php">Contacto</a></li>
+                    <!-- <li><a href="contacto.php">Contacto</a></li> -->
                     <li><a href=""><img src="../img/iconos/icono_instagram.png" alt="instagram" class="icono"></a></li>
                     <li><a href=""><img src="../img/iconos/icono_facebook.png" alt="facebook" class="icono"></a></li>
                     <li><a href=""><img src="../img/iconos/icono_twitter.png" alt="twitter" class="icono"></a></li>

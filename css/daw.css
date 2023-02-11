@@ -6,6 +6,10 @@
     margin: 0;
     padding: 0;
 }
+html {
+    min-height: 100%;
+    position: relative;
+}
 
 .contenedor-imagen{
     display: inline-block;
@@ -16,8 +20,9 @@
 }
 .contenedor-h1{
     position: absolute;
-    top: 10%;
+    /* top: 10%; */
     left: 50%;
+    right: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -40,8 +45,7 @@
 h1{
     display: inline-block;
     text-align: center;
-    position: absolute;
-    margin-top: 13%;
+    margin-top: 2rem;
     font-size: 4rem;
     color:white;
 }
@@ -112,8 +116,8 @@ h1{
         width: 100%;
     }
     .contenedor-imagen h1{
-        padding-top: 6rem;
-        font-size: 2rem;
+        margin-top: 15rem;
+        font-size: 1.2rem;
     }
     .contenedor-titulo h2{
         font-size: 1.5rem;
@@ -161,8 +165,8 @@ h1{
         height: 400px;
     }
     .contenedor-imagen h1{
-        padding-top: 6rem;
-        font-size: 3rem;
+        margin-top: 25rem;
+        font-size: 2rem;
     }
     .contenedor-titulo h2{
         font-size: 2rem;
@@ -170,6 +174,7 @@ h1{
     .contenedor-paneles{
         flex-direction: column;
         align-items: center;
+        margin-bottom: 4rem;
     }
     .carta{
        width: 300px;
@@ -211,20 +216,20 @@ h1{
         height: 400px;
     }
     .contenedor-imagen h1{
-        padding-top: 2rem;
-        padding-bottom: 5rem;
+        margin-top: 25rem;
         font-size: 2.5rem;
     }
     .contenedor-titulo h2{
         font-size: 2rem;
     }
     .contenedor-paneles{
-        padding: 4rem;
+        padding: 3rem;
         width: 100%;
         background-color: white;
         overflow: hidden;
         display:inline-flex; /* PARA PONERLOS EN BLOQUES HORIZONTALMENTE */
         justify-content: center;
+        margin-bottom: 2rem;
     }
     .carta{
        width: 300px;
@@ -263,7 +268,7 @@ h1{
         width: 100%;
     }
     .contenedor-imagen h1{
-        padding-top: 6rem;
+        margin-top: 9rem;
         font-size: 3rem;
     }
     .contenedor-titulo h2{
@@ -309,7 +314,7 @@ h1{
         width: 100%;
     }
     .contenedor-imagen h1{
-        padding-top: 6rem;
+        margin-top: 5rem;
         font-size: 4rem;
     }
     .contenedor-titulo h2{

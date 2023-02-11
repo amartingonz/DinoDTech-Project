@@ -3,7 +3,8 @@
 }
 footer{
     width: 100%;
-    /* position: relative; */
+    position: absolute;
+    bottom: 0;
     background-color: #27282F;
 }
 
@@ -39,7 +40,6 @@ footer nav ul li a {
 @media (min-width: 300px) {
     footer{
       width: 100%;
-    
     }
 }
 @media (max-width: 480px) {
@@ -58,7 +58,6 @@ footer nav ul li a {
     }
     footer{
         position: absolute;
-        /* bottom: 0; */
     }
    
 }
@@ -78,7 +77,11 @@ footer nav ul li a {
     }
     .contenedor_footer{
         height: 60px;
-        font-size: 3rem;
+        font-size: 0.9rem;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
     }
    
 }
@@ -98,12 +101,15 @@ footer nav ul li a {
     }
     .icono {
         width: auto;
-        height: 10px;
+        height: 15px;
     }
-   
+
 }
 
 @media (min-width: 1200px) {
+    .nav-footer{
+        margin: auto;
+    }
     footer nav ul li {
       margin: auto;
     }
@@ -117,20 +123,21 @@ footer nav ul li a {
     }
     .icono {
         width: auto;
-        height: 11px;
+        height: 15px;
     }
+
 }
   @media (min-width: 2000px) {
     footer nav ul li {
       margin: auto;
     }
     footer nav ul li a {
-      font-size: 1.2rem;
-      margin-right: 1rem;
+        font-size: 1.2rem;
+        margin-right: 1rem;
     }
     .img-logo {
-      width: 100%;
-      height: 50px;
+        width: 100%;
+        height: 50px;
     }
     .icono {
         width: auto;

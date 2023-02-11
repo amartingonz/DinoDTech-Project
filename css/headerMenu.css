@@ -66,6 +66,7 @@ nav{
     height: 100vh;
     /* height: 80%; */
 }
+
 #check:checked ~ .nav-menu li{
     display: block;
 }
