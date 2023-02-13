@@ -55,7 +55,7 @@ nav{
     font-weight: 600;
 }
 .nav-menu li a.active, .nav-menu li a:hover{
-    color: red;
+    color: gold;
     transition: .3s;
 }
 #check{
@@ -121,7 +121,6 @@ nav{
         padding: 5%;
         background: none;
         border: none;
-        color: red;
       }
 
   
@@ -227,7 +226,6 @@ nav{
     }
     .empezamos {
         padding: 15%;
-        background-color: red;
     }
     .empezamos:hover {
         color: black;

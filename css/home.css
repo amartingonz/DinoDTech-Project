@@ -58,6 +58,7 @@ html {
   .contenedor-marcas img {
     width: 300px;
     height: auto;
+    margin-bottom: 2rem;
   }
   .contenedor-imagen {
     width: 100px;

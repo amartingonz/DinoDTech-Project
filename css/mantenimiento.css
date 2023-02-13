@@ -12,18 +12,11 @@ html {
 }
 
 .contenedor-imagen{
-  display: inline-block;
-  align-items: center;
+    display: flex;
+    align-items: center; 
 }
 .contenedor-imagen img{
   width: 100%;
-}
-.contenedor-h1{
-  position: absolute;
-  /* top: 10%; */
-  left: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .contenedor-paneles{
@@ -35,17 +28,16 @@ html {
   justify-content: center;
   
 }
-.contenedor-titulo{
-  margin-top: 2.5rem;
-  text-align: center;
-  font-size: 2rem;
+#titulo{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    
 }
 
 /* H1 QUE CONTIENE -> (DESARROLLO WEB) */
 h1{
-  display: inline-block;
   text-align: center;
-  margin-top: 2rem;
   font-size: 4rem;
   color:white;
 }
@@ -116,19 +108,20 @@ h1{
       width: 100%;
   }
   .contenedor-imagen h1{
-      margin-top: 15rem;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
   }
   .contenedor-titulo h2{
-      font-size: 1.5rem;
+      margin-top: 1.5rem;
+      text-align: center;
+      font-size: 1.2rem;
   }
   .contenedor-paneles{
       flex-direction: column;
       align-items: center;
   }
   .carta{
-     width: 200px;
-     margin: 2em;
+      width: 200px;
+      margin: 2em;
   }
   .carta h3{
       font-size: 1.8rem;
@@ -165,11 +158,12 @@ h1{
       height: 400px;
   }
   .contenedor-imagen h1{
-      margin-top: 25rem;
       font-size: 2rem;
   }
   .contenedor-titulo h2{
-      font-size: 2rem;
+      margin-top: 1.5rem;
+      text-align: center;
+      font-size: 1.8rem;
   }
   .contenedor-paneles{
       flex-direction: column;
@@ -216,10 +210,11 @@ h1{
       height: 400px;
   }
   .contenedor-imagen h1{
-      margin-top: 25rem;
       font-size: 2.5rem;
   }
   .contenedor-titulo h2{
+      margin-top: 1.8rem;
+      text-align: center;
       font-size: 2rem;
   }
   .contenedor-paneles{
@@ -268,11 +263,12 @@ h1{
       width: 100%;
   }
   .contenedor-imagen h1{
-      margin-top: 9rem;
       font-size: 3rem;
   }
   .contenedor-titulo h2{
-      font-size: 1.5rem;
+      margin-top: 1.8rem;
+      text-align: center;
+      font-size: 2.5rem;
   }
 
   .carta{
@@ -303,10 +299,7 @@ h1{
       margin-bottom: 2rem;
   }
   h1{
-      position: absolute;
-      margin-top: 3%;
       font-size: 2rem;
-      color:white;
   }
 }
 @media (min-width: 2000px) {
@@ -314,16 +307,18 @@ h1{
       width: 100%;
   }
   .contenedor-imagen h1{
-      margin-top: 5rem;
       font-size: 4rem;
   }
   .contenedor-titulo h2{
+      margin-top: 2rem;
+      text-align: center;
       font-size: 3.1rem;
   }
 
   .carta{
      width: 600px;
-     margin: 3em;
+     margin-bottom: 6rem;
+     
   }
   .carta h3{
       font-size: 2.8rem;
@@ -349,10 +344,7 @@ h1{
       margin-bottom: 2rem;
   }
   h1{
-      position: absolute;
-      margin-top: 3%;
       font-size: 2rem;
-      color:white;
   }
 
 
