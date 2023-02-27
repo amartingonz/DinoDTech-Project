@@ -1,6 +1,8 @@
+/* FOOTER PARA EL HOME */
 * {
     font-family: Quantico;
 }
+
 footer{
     width: 100%;
     position: absolute;
@@ -17,9 +19,7 @@ footer{
     align-items: center;
     justify-content: space-between;
 }
-/* .nav-footer ul a{
-    font-size: 0.5rem;
-} */
+
 footer nav ul li {
     list-style: none;
     display: inline-block;
@@ -37,6 +37,9 @@ footer nav ul li a {
     height: auto;
     cursor: pointer;
 }
+
+/* MEDIAS PARA LAS DIFERENTES RESOLUCIONES */
+
 @media (min-width: 300px) {
     footer{
       width: 100%;
@@ -59,7 +62,6 @@ footer nav ul li a {
     footer{
         position: absolute;
     }
-   
 }
 
 @media (min-width: 481px) and (max-width: 779px) {
@@ -82,8 +84,7 @@ footer nav ul li a {
     footer{
         position: absolute;
         bottom: 0;
-    }
-   
+    } 
 }
 
 @media (min-width: 780px) {
@@ -92,6 +93,7 @@ footer nav ul li a {
     }
     footer nav ul li a {
         font-size: 0.8rem;
+        margin-right: 1rem;
     }
     .img-logo {
         width: 100%;
@@ -108,14 +110,14 @@ footer nav ul li a {
 
 @media (min-width: 1200px) {
     .nav-footer{
-        margin: auto;
+      margin: auto;
     }
     footer nav ul li {
       margin: auto;
     }
     footer nav ul li a {
-      font-size: 1.2rem;
-      
+      font-size: 1rem;
+      margin-right: 2rem;
     }
     .img-logo {
       width: 100%;
@@ -133,7 +135,7 @@ footer nav ul li a {
     }
     footer nav ul li a {
         font-size: 1.2rem;
-        margin-right: 1rem;
+        margin-right: 2rem;
     }
     .img-logo {
         width: 100%;
