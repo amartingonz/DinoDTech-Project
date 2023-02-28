@@ -1,0 +1,337 @@
+/* MANTENIMIENTO */
+/* CONTENEDOR QUE CONTIENE LAS CARTAS-PANELES */
+/* H1 QUE CONTIENE -> (MANTENIMIENTO) */
+/* CARTA HACE REFERENCIA A LOS ARTICLES QUE ESTAN DENTRO DEL SECTION CONTENEDOR-PANELES */
+/* Botones dentro de las cartas */
+/* MEDIAS PARA LAS DIFERENTES RESOLUCIONES */
+* {
+  font-family: Quantico;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.contenedor-imagen {
+  display: flex;
+  align-items: center;
+}
+.contenedor-imagen img {
+  width: 100%;
+}
+
+.contenedor-paneles {
+  padding: 4rem;
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  display: inline-flex;
+  justify-content: center;
+}
+
+#titulo {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: white;
+}
+
+.carta {
+  background-color: #27282F;
+  border-radius: 2.5rem;
+  margin: 2.5em;
+  width: 20rem;
+  color: white;
+  transition: transform 0.2s;
+}
+.carta h3 {
+  color: white;
+  text-align: center;
+  margin: 1em;
+  font-size: 2em;
+}
+.carta h4 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.5em;
+}
+.carta ul li {
+  margin-left: 3rem;
+  margin-top: 0.5rem;
+  list-style-type: square;
+}
+.carta:hover {
+  transform: scale(1.1);
+}
+
+.contratar {
+  display: flex;
+  justify-content: center;
+  border-radius: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin: auto;
+  color: black;
+  cursor: pointer;
+  transition: all 500ms;
+}
+.contratar:hover {
+  background-color: gold;
+  color: black;
+  transition: all 500ms;
+}
+
+.contratar-1 {
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+}
+
+.contratar-2 {
+  margin-top: 3.8rem;
+  margin-bottom: 2rem;
+}
+
+.contratar-3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 480px) {
+  .contenedor-imagen {
+    width: 100%;
+  }
+  .contenedor-imagen h1 {
+    font-size: 1.5rem;
+  }
+  .contenedor-titulo h2 {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .contenedor-paneles {
+    flex-direction: column;
+    align-items: center;
+  }
+  .carta {
+    width: 200px;
+    margin: 2em;
+  }
+  .carta h3 {
+    font-size: 1.8rem;
+  }
+  .carta h4 {
+    font-size: 1.5rem;
+  }
+  .carta ul li {
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  .contratar-1 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .contratar-2 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .contratar-3 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 779px) {
+  .contenedor-imagen {
+    width: 100%;
+  }
+  .contenedor-imagen img {
+    width: 100%;
+    height: 400px;
+  }
+  .contenedor-imagen h1 {
+    font-size: 2rem;
+  }
+  .contenedor-titulo h2 {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  .contenedor-paneles {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+  .carta {
+    width: 300px;
+    margin: 2em;
+  }
+  .carta h3 {
+    font-size: 1.5rem;
+  }
+  .carta h4 {
+    font-size: 1.5rem;
+  }
+  .carta ul li {
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  .contratar-1 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .contratar-2 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .contratar-3 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 780px) {
+  .contenedor-imagen {
+    width: 100%;
+  }
+  .contenedor-imagen img {
+    width: 100%;
+    height: 400px;
+  }
+  .contenedor-imagen h1 {
+    font-size: 2.5rem;
+  }
+  .contenedor-titulo h2 {
+    margin-top: 1.8rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .contenedor-paneles {
+    padding: 3rem;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .carta {
+    width: 300px;
+    margin: 2em;
+  }
+  .carta h3 {
+    font-size: 2rem;
+  }
+  .carta h4 {
+    font-size: 1.5rem;
+  }
+  .carta ul li {
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  .contratar-1 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .contratar-2 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .contratar-3 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .contenedor-imagen {
+    width: 100%;
+  }
+  .contenedor-imagen h1 {
+    font-size: 3rem;
+  }
+  .contenedor-titulo h2 {
+    margin-top: 1.8rem;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .carta {
+    width: 300px;
+    margin: 2em;
+  }
+  .carta h3 {
+    font-size: 1.8rem;
+  }
+  .carta h4 {
+    font-size: 1.5rem;
+  }
+  .carta ul li {
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  .contratar-1 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .contratar-2 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .contratar-3 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 2000px) {
+  .contenedor-imagen {
+    width: 100%;
+  }
+  .contenedor-imagen h1 {
+    font-size: 4rem;
+  }
+  .contenedor-titulo h2 {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 3.1rem;
+  }
+  .carta {
+    width: 600px;
+    margin-bottom: 6rem;
+  }
+  .carta h3 {
+    font-size: 2.8rem;
+  }
+  .carta h4 {
+    font-size: 2.8rem;
+  }
+  .carta ul li {
+    font-size: 2rem;
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+  }
+  .contratar-1 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .contratar-2 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .contratar-3 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=mantenimiento.css.map */
