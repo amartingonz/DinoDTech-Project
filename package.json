@@ -13,8 +13,8 @@
   "browserlist": "> 0.2%, not dead, last 4 versions",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "parcel:desarrollo": "parcel hola.html",
-    "parcel:produccion": "parcel build hola.html",
+    "parcel:desarrollo": "parcel index.html",
+    "parcel:produccion": "parcel build index.html",
     "limpieza":"rimraf dist", 
     "desarrollo": "npm-run-all limpieza parcel:desarrollo",
     "produccion": "npm-run-all limpieza parcel:produccion"
