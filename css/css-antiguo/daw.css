@@ -21,7 +21,6 @@ html {
 }
 
 .contenedor-paneles{
-    padding: 4rem;
     width: 100%;
     background-color: white;
     overflow: hidden;
@@ -125,8 +124,8 @@ h1{
         align-items: center;
     }
     .carta{
-       width: 200px;
-       margin-bottom: 2em;
+       width: 90%;
+       margin-bottom: 6em;
     }
     .carta h3{
         font-size: 1.8rem;
@@ -150,7 +149,10 @@ h1{
     .contratar-3{
         margin-top: 3rem;
         margin-bottom: 2rem;
-    }  
+    } 
+    .carta:hover{
+        transform: none; 
+    }
    }
    
 @media (min-width:481px) and (max-width: 779px){
@@ -231,8 +233,8 @@ h1{
         margin-bottom: 2rem;
     }
     .carta{
-       width: 300px;
-       margin: 2em;
+       width: 350px;
+       margin-bottom: 2em;
     }
     .carta h3{
         font-size: 2rem;
@@ -345,9 +347,7 @@ h1{
         margin-top: 3rem;
         margin-bottom: 2rem;
     }
-    h1{
-        font-size: 2rem;
-    }
+  
 }
    
    

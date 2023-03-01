@@ -45,6 +45,9 @@ html {
 .formulario label{
     color: white;
 }
+
+
+
 .boton{
     border-radius: 1rem;
     padding: 2%;
@@ -56,14 +59,21 @@ html {
     background-color:gold;
     transition: all .5s;
 }
+input[type=text]{
+    width: 90%;
+    height: 40px;
+}
+input[type=email]{
+    width: 90%;
+    height: 40px;
+}
+
 textarea{
-	width:100%;
+	width:90%;
 	height:100px;
 	border:1px solid #f6f6f6;
-	border-radius:3px;
-	background-color: var(--
-    );			
-	margin:8px 0;
+	border-radius:3px;	
+    margin: auto;
 	resize:none;
 	display:block;
 }
@@ -96,7 +106,15 @@ h1{
         margin-bottom: 10rem;
     }
     .formulario label{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+    }
+    input[type=text]{
+        width: 90%;
+        height: 20px;
+    }
+    input[type=email]{
+        width: 90%;
+        height: 20px;
     }
    }
    
@@ -123,7 +141,14 @@ h1{
     .formulario label{
         font-size: 1.5rem;
     }
-   
+    input[type=text]{
+        width: 90%;
+        height: 25px;
+    }
+    input[type=email]{
+        width: 90%;
+        height: 25px;
+    }
     
    }
    
@@ -147,6 +172,14 @@ h1{
     .formulario{
         margin-bottom: 12rem;
     }
+    input[type=text]{
+        width: 90%;
+        height: 30px;
+    }
+    input[type=email]{
+        width: 90%;
+        height: 30px;
+    }
    }
    
    
@@ -163,6 +196,9 @@ h1{
         text-align: center;
         font-size: 2.5rem;
     }
+    .formulario{
+        margin-bottom: 10rem;
+    }
    }
 
  @media (min-width: 2000px){
@@ -173,8 +209,26 @@ h1{
         font-size: 4rem;
     }
     .contenedor-titulo h2{
-        margin-top: 2rem;
+        margin-top: 2.5rem;
         text-align: center;
-        font-size: 3.1rem;
+        font-size: 3.5rem;
+    }
+    .formulario{
+        margin-bottom: 10rem;
+        margin-top: 10rem;
+    }
+    .formulario label{
+        font-size: 2.5rem;
+    }
+    input[type=text]{
+        width: 90%;
+        height: 50px;
+    }
+    input[type=email]{
+        width: 90%;
+        height: 50px;
+    }
+    .boton{
+        padding: 1.5rem;
     }
  }
