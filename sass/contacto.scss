@@ -1,8 +1,4 @@
 /* CONTACTO */
-/* CONTENEDOR IMAGEN */
-/* FORMULARIO */
-/* H1 QUE CONTIENE -> (CONTACTO) */
-/* MEDIAS PARA LAS DIFERENTES RESOLUCIONES */
 * {
 	font-family: Quantico;
 }
@@ -19,6 +15,7 @@ html {
 		margin-bottom: 2rem;
 	}
 }
+/* CONTENEDOR IMAGEN */
 .contenedor-imagen {
 	display: flex;
 	align-items: center;
@@ -31,6 +28,7 @@ html {
 	z-index: 100;
 	width: 100%;
 }
+/* FORMULARIO */
 .formulario {
 	width: 50%;
 	padding: 16px;
@@ -70,11 +68,14 @@ textarea {
 	resize: none;
 	display: block;
 }
+/* H1 QUE CONTIENE -> (CONTACTO) */
 h1 {
 	text-align: center;
 	font-size: 4rem;
 	color: white;
 }
+
+/* MEDIAS PARA LAS DIFERENTES RESOLUCIONES */
 @media (max-width: 480px) {
 	.contenedor-imagen {
 		width: 100%;
@@ -105,6 +106,7 @@ h1 {
 		height: 20px;
 	}
 }
+
 @media (min-width:481px) and (max-width: 779px) {
 	.contenedor-imagen {
 		width: 100%;
@@ -138,6 +140,7 @@ h1 {
 		height: 25px;
 	}
 }
+
 @media (min-width: 780px) {
 	.contenedor-imagen {
 		width: 100%;
@@ -168,6 +171,7 @@ h1 {
 		height: 30px;
 	}
 }
+
 @media (min-width: 1200px) {
 	.contenedor-imagen {
 		width: 100%;
@@ -186,6 +190,7 @@ h1 {
 		margin-bottom: 10rem;
 	}
 }
+
 @media (min-width: 2000px) {
 	.contenedor-imagen {
 		width: 100%;

@@ -1,5 +1,4 @@
 /* HEADER */
-/* MEDIAS PARA LAS DIFERENTES RESOLUCIONES */
 * {
 	padding: 0;
 	margin: 0;
@@ -75,11 +74,14 @@ nav {
 		}
 	}
 }
+
+/* MEDIAS PARA LAS DIFERENTES RESOLUCIONES */
 @media (min-width: 300px) {
 	nav {
 		width: 100%;
 	}
 }
+
 @media (max-width: 480px) {
 	.bar-btn {
 		font-size: 1rem;
@@ -104,6 +106,7 @@ nav {
 		color: gold;
 	}
 }
+
 @media (min-width: 481px) and (max-width: 779px) {
 	nav {
 		height: 100px;
@@ -136,6 +139,7 @@ nav {
 		color: gold;
 	}
 }
+
 @media (min-width: 780px) {
 	.logo {
 		margin-left: 50px;
@@ -173,6 +177,7 @@ nav {
 		}
 	}
 }
+
 @media (min-width: 1200px) {
 	.logo {
 		width: 75px;
@@ -211,6 +216,7 @@ nav {
 		}
 	}
 }
+
 @media (min-width: 2000px) {
 	.logo {
 		width: 100px;

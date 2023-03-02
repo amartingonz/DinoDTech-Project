@@ -1,5 +1,4 @@
 /* FOOTER PARA LAS DIFERENTES SECCIONES */
-/* MEDIAS PARA LAS DIFERENTES RESOLUCIONES */
 * {
 	font-family: Quantico;
 }
@@ -39,11 +38,13 @@ footer {
 	height: auto;
 	cursor: pointer;
 }
+/* MEDIAS PARA LAS DIFERENTES RESOLUCIONES */
 @media (min-width: 300px) {
 	footer {
 		width: 100%;
 	}
 }
+
 @media (max-width: 480px) {
 	footer {
 		nav {
@@ -66,6 +67,7 @@ footer {
 		height: 8px;
 	}
 }
+
 @media (min-width: 481px) and (max-width: 779px) {
 	footer {
 		nav {
@@ -84,6 +86,7 @@ footer {
 		height: 10px;
 	}
 }
+
 @media (min-width: 780px) {
 	footer {
 		nav {
@@ -109,6 +112,7 @@ footer {
 		height: 15px;
 	}
 }
+
 @media (min-width: 1200px) {
 	footer {
 		nav {
@@ -132,6 +136,7 @@ footer {
 		height: 15px;
 	}
 }
+
 @media (min-width: 2000px) {
 	footer {
 		nav {
