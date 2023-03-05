@@ -1,7 +1,4 @@
 /* MAIN */
-/* CONTENEDOR DEL SLOGAN Y LA IMAGEN DE LA BOMBILLA */
-/* CONTENEDOR DE LA IMAGEN DE MARCAS */
-/* MEDIAS PARA LAS DIFERENTES RESOLUCIONES */
 * {
   font-family: Quantico;
   margin: 0;
@@ -12,6 +9,7 @@ html {
   position: relative;
 }
 
+/* CONTENEDOR DEL SLOGAN Y LA IMAGEN DE LA BOMBILLA */
 .contenedor-home {
   display: flex;
   align-items: stretch;
@@ -36,6 +34,7 @@ html {
   height: 70%;
 }
 
+/* CONTENEDOR DE LA IMAGEN DE MARCAS */
 .contenedor-marcas {
   margin: 4rem;
   font-size: 30px;
@@ -47,6 +46,7 @@ html {
   width: 65%;
 }
 
+/* MEDIAS PARA LAS DIFERENTES RESOLUCIONES */
 @media (min-width: 300px) {
   .contenedor-slogan h1 {
     font-size: 1.2rem;

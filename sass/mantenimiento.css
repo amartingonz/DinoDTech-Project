@@ -4,6 +4,7 @@
 /* CARTA HACE REFERENCIA A LOS ARTICLES QUE ESTAN DENTRO DEL SECTION CONTENEDOR-PANELES */
 /* Botones dentro de las cartas */
 /* MEDIAS PARA LAS DIFERENTES RESOLUCIONES */
+
 * {
   font-family: Quantico;
   margin: 0;
@@ -18,6 +19,10 @@ html {
 .contenedor-imagen {
   display: flex;
   align-items: center;
+  background-image: url("../img/mantenimiento/manteni.jpg");
+  background-size: cover;
+  height: 300px;
+  background-position: center;
 }
 .contenedor-imagen img {
   width: 100%;
@@ -105,6 +110,7 @@ h1 {
 @media (max-width: 480px) {
   .contenedor-imagen {
     width: 100%;
+    background-image: url("../img/mantenimiento/manteni300.jpg");
   }
   .contenedor-imagen h1 {
     font-size: 1.5rem;
@@ -152,10 +158,7 @@ h1 {
 @media (min-width: 481px) and (max-width: 779px) {
   .contenedor-imagen {
     width: 100%;
-  }
-  .contenedor-imagen img {
-    width: 100%;
-    height: 400px;
+    background-image: url("../img/mantenimiento/manteni700.jpg");
   }
   .contenedor-imagen h1 {
     font-size: 2rem;
@@ -201,10 +204,6 @@ h1 {
 @media (min-width: 780px) {
   .contenedor-imagen {
     width: 100%;
-  }
-  .contenedor-imagen img {
-    width: 100%;
-    height: 400px;
   }
   .contenedor-imagen h1 {
     font-size: 2.5rem;
@@ -254,6 +253,8 @@ h1 {
 @media (min-width: 1200px) {
   .contenedor-imagen {
     width: 100%;
+    background-image: url("../img/mantenimiento/manteni1000.jpg");
+    height: 400px;
   }
   .contenedor-imagen h1 {
     font-size: 3rem;
@@ -297,6 +298,8 @@ h1 {
 @media (min-width: 2000px) {
   .contenedor-imagen {
     width: 100%;
+    background-image: url("../img/mantenimiento/manteni1600.jpg");
+    height: 400px;
   }
   .contenedor-imagen h1 {
     font-size: 4rem;

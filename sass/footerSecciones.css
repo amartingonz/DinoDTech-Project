@@ -1,5 +1,4 @@
 /* FOOTER PARA LAS DIFERENTES SECCIONES */
-/* MEDIAS PARA LAS DIFERENTES RESOLUCIONES */
 * {
   font-family: Quantico;
 }
@@ -39,6 +38,7 @@ footer nav ul li a {
   cursor: pointer;
 }
 
+/* MEDIAS PARA LAS DIFERENTES RESOLUCIONES */
 @media (min-width: 300px) {
   footer {
     width: 100%;
