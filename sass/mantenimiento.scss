@@ -1,9 +1,4 @@
 /* MANTENIMIENTO */
-/* CONTENEDOR QUE CONTIENE LAS CARTAS-PANELES */
-/* H1 QUE CONTIENE -> (MANTENIMIENTO) */
-/* CARTA HACE REFERENCIA A LOS ARTICLES QUE ESTAN DENTRO DEL SECTION CONTENEDOR-PANELES */
-/* Botones dentro de las cartas */
-/* MEDIAS PARA LAS DIFERENTES RESOLUCIONES */
 /*# sourceMappingURL=mantenimiento.css.map */
 * {
 	font-family: Quantico;
@@ -25,6 +20,7 @@ html {
 		width: 100%;
 	}
 }
+/* CONTENEDOR QUE CONTIENE LAS CARTAS-PANELES */
 .contenedor-paneles {
 	width: 100%;
 	background-color: white;
@@ -37,11 +33,14 @@ html {
 	z-index: 100;
 	width: 100%;
 }
+
+/* H1 QUE CONTIENE -> (MANTENIMIENTO) */
 h1 {
 	text-align: center;
 	font-size: 4rem;
 	color: white;
 }
+/* CARTA HACE REFERENCIA A LOS ARTICLES QUE ESTAN DENTRO DEL SECTION CONTENEDOR-PANELES */
 .carta {
 	background-color: #27282F;
 	border-radius: 2.5rem;
@@ -71,6 +70,7 @@ h1 {
 		transform: scale(1.1);
 	}
 }
+/* Botones dentro de las cartas */
 .contratar {
 	display: flex;
 	justify-content: center;
@@ -98,6 +98,7 @@ h1 {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
+/* MEDIAS PARA LAS DIFERENTES RESOLUCIONES */
 @media (max-width: 480px) {
 	.contenedor-imagen {
 		width: 100%;
