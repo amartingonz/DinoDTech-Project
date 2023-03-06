@@ -1,9 +1,5 @@
 @charset "UTF-8";
 /* DESARROLLO WEB */
-/* H1 QUE CONTIENE -> (DESARROLLO WEB) */
-/* CARTA HACE REFERENCIA A LOS ARTICLES QUE ESTAN DENTRO DEL SECTION CONTENEDOR-PANELES */
-/* BOTONES QUE ESTÁN DENTRO DE LAS CARTAS */
-/* MEDIAS PARA LAS DIFERENTES RESOLUCIONES */
 /*# sourceMappingURL=daw.css.map */
 * {
 	font-family: Quantico;
@@ -37,11 +33,13 @@ html {
 	z-index: 100;
 	width: 100%;
 }
+/* H1 QUE CONTIENE -> (DESARROLLO WEB) */
 h1 {
 	text-align: center;
 	font-size: 4rem;
 	color: white;
 }
+/* CARTA HACE REFERENCIA A LOS ARTICLES QUE ESTAN DENTRO DEL SECTION CONTENEDOR-PANELES */
 .carta {
 	background-color: #27282F;
 	border-radius: 2.5rem;
@@ -71,6 +69,7 @@ h1 {
 		transform: scale(1.1);
 	}
 }
+/* BOTONES QUE ESTÁN DENTRO DE LAS CARTAS */
 .contratar {
 	display: flex;
 	justify-content: center;
@@ -98,6 +97,7 @@ h1 {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
+/* MEDIAS PARA LAS DIFERENTES RESOLUCIONES */
 @media (max-width: 480px) {
 	.contenedor-imagen {
 		width: 100%;
